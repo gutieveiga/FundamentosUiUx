@@ -1,7 +1,81 @@
-.tabela-produtos {
-    background-color: rgb(228, 42, 42);
+body {
+    background-color: #054b6b;
+    font-family: copperplate, sans-serif
+    margin: 0;
+    padding: 30px;
 }
 
-th, tr {
-    border: solid 1px;
+/* Painel principal */
+.container {
+    background-color: #103483;
+    width: 90%;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box
+}
+
+
+/* Título */
+h2 {
+    color: rgb(171, 214, 243);
+    text-align: center;
+}
+
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+
+.campo {
+    margin-bottom: 20px;
+}
+
+
+/* Textos dos campos */
+label {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Caixas de preenchimento */
+input {
+    background-color: #2e559e;
+    border: 2px solid #133766;
+    height: 22px;
+    padding: 3px;
+    font-size: 14px;
+}
+
+
+/* Botão */
+button {
+    background-color: #13499b;
+    color: rgb(255, 255, 255);
+    border: 2px solid #1e388f;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Efeito do botão */
+button:hover {
+    background-color: #2e559e
+}
+
+
+/* login */
+a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
